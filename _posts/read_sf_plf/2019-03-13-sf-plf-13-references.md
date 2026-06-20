@@ -2,7 +2,7 @@
 title: "「SF-PLF」13 References"
 subtitle: "Programming Language Foundations - Typing Mutable References"
 layout: post
-author: "Hux"
+author:     "ShuaiZheng"
 header-style: text
 hidden: true
 tags:

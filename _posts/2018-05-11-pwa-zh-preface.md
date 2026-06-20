@@ -2,7 +2,7 @@
 layout:       post
 title:        "《PWA 实战》推荐序"
 date:         2018-05-11 12:00:00
-author:       "Hux"
+author:     "ShuaiZheng"
 header-style: text
 catalog:      true
 tags:
