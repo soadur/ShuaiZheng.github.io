@@ -1,24 +1,25 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: ShuaiZheng
+SEOTitle: ShuaiZheng
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: yourname@gmail.com
+description: "这里是 @ShuaiZheng 的个人博客"
+keyword: "ShuaiZheng, 博客, 个人网站"
+url: "https://example.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+social_links:
+  - { name: "GitHub", url: "https://github.com/ShuaiZheng", icon: "github" }
+  - { name: "Twitter", url: "https://twitter.com/yourname", icon: "twitter" }
+  - { name: "微博", url: "http://weibo.com/yourname", icon: "weibo" }
+  - { name: "知乎", url: "https://www.zhihu.com/people/yourname", text: "知" }
+  - { name: "B站", url: "https://space.bilibili.com/jjxxxxkkky", text: "B" }
+  - { name: "抖音", url: "https://www.douyin.com/user/Ciatek1", text: "抖" }
+  - { name: "小红书", url: "https://www.xiaohongshu.com/user/profile/Ciatek1", text: "薯" }
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -59,7 +60,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+# disqus_username: yourname
 
 # Netease settings
 netease_comment: false
@@ -69,13 +70,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: "UA-xxxxxx-xx" # Format: UA-xxxxxx-xx
+# ga_domain: example.com
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "个人简介写在这里"
+sidebar-avatar: https://github.com/ShuaiZheng.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
