@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: yourname@gmail.com
 description: "这里是 @ShuaiZheng 的个人博客"
 keyword: "ShuaiZheng, 博客, 个人网站"
-url: "https://shuaizheng.github.io" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://soadur.github.io" # your host, for absolute URL
+baseurl: "/ShuaiZheng.github.io" # project site subpath
 
 # Publish posts or collection documents with a future date.
 future: true
