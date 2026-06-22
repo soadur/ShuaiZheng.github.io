@@ -42,14 +42,14 @@
   .tags {
     a {
       border-color: fade(@brand-primary, 25%);
-      color: @gray-light;
-      background: fade(white, 3%);
+      color: @gray-dark;
+      background: @bg-card;
       .transition-all();
       &:hover,
       &:active {
         border-color: @brand-primary;
-        color: @brand-primary;
-        background: fade(@brand-primary, 10%);
+        color: white;
+        background: @brand-primary;
       }
     }
   }
@@ -86,7 +86,7 @@
     display: block;
     padding: 4px 0;
     font-size: 13px;
-    border-bottom: 1px solid fade(white, 4%);
+    border-bottom: 1px solid @bg-surface;
     &:last-child { border-bottom: none; }
   }
 }
