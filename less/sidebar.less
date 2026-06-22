@@ -22,6 +22,10 @@
   h5 {
     color: @brand-gray;
     padding-bottom: 1em;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
     a {
       color: @brand-gray !important;
       text-decoration: none;
@@ -29,6 +33,7 @@
   }
   a {
     color: @gray-light !important;
+    .transition-all();
     &:hover,
     &:active {
       color: @brand-primary !important;
@@ -36,10 +41,15 @@
   }
   .tags {
     a {
-      border-color: @gray-light;
+      border-color: fade(@brand-primary, 25%);
+      color: @gray-light;
+      background: fade(white, 3%);
+      .transition-all();
       &:hover,
       &:active {
         border-color: @brand-primary;
+        color: @brand-primary;
+        background: fade(@brand-primary, 10%);
       }
     }
   }
@@ -47,15 +57,36 @@
     img {
       width: 80%;
       display: block;
-      border-radius: 5px;
+      border-radius: 50%;
       margin-bottom: 20px;
+      border: 3px solid fade(@brand-primary, 30%);
+      box-shadow: 0 0 20px fade(@brand-primary, 15%);
+      .transition-all();
+      &:hover {
+        border-color: @brand-primary;
+        box-shadow: 0 0 30px fade(@brand-primary, 30%);
+      }
     }
     p {
-      margin-top: 0px;
+      margin-top: 0;
       margin-bottom: 20px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: @gray-light;
     }
     .list-inline > li {
       padding-left: 0px;
     }
+  }
+}
+
+// Friends list decoration
+.sidebar-container .friends {
+  a {
+    display: block;
+    padding: 4px 0;
+    font-size: 13px;
+    border-bottom: 1px solid fade(white, 4%);
+    &:last-child { border-bottom: none; }
   }
 }
