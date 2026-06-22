@@ -10,30 +10,30 @@
   }
 }
 .sidebar-container {
-  color: #bfbfbf;
+  color: #A8A29E;
   font-size: 14px;
 }
 .sidebar-container h5 {
-  color: #a3a3a3;
+  color: #78716C;
   padding-bottom: 1em;
 }
 .sidebar-container h5 a {
-  color: #a3a3a3 !important;
+  color: #78716C !important;
   text-decoration: none;
 }
 .sidebar-container a {
-  color: #bfbfbf !important;
+  color: #A8A29E !important;
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
-  color: #0085a1 !important;
+  color: #CA8A04 !important;
 }
 .sidebar-container .tags a {
-  border-color: #bfbfbf;
+  border-color: #A8A29E;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #0085a1;
+  border-color: #CA8A04;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -186,7 +186,7 @@
     Multi-line snackbar height: 80 dp
     Text: Roboto Regular 14 sp
     Action button: Roboto Medium 14 sp, all-caps text
-    Default background fill: #323232 100%
+    Default background fill: #323232 100%  
   */
     left: 0px;
     right: 0px;
@@ -214,10 +214,10 @@
   width: 160px;
   overflow: hidden;
   user-select: none;
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
   border-radius: 3px;
-  outline-color: #a3a3a3;
+  outline-color: #78716C;
 }
 .paper-button:hover {
   cursor: pointer;
@@ -231,7 +231,7 @@
   height: 100%;
   /*font-family: 'Roboto';*/
   font-size: 1em;
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
 }
 .paper-button.colored,
@@ -264,13 +264,13 @@ button.paper-button {
   /*font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;*/
   font-size: 1em;
   line-height: 25px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .paper-button input[type="submit"] {
-  outline-color: #a3a3a3;
+  outline-color: #78716C;
 }
 .paper-button.colored.raised-button input[type="submit"] {
-  color: #ffffff;
+  color: #fff;
 }
 /** Shadows **/
 .paper-shadow-animated.paper-shadow {
@@ -622,7 +622,7 @@ pre.highlight {
   width: 100%;
   font-size: 30px;
   font-weight: bold;
-  color: #404040;
+  color: #F5F5F4;
 }
 @media only screen and (min-width: 768px) {
   .search-page #search-input {
@@ -652,14 +652,11 @@ pre.highlight {
   font-size: 16px;
 }
 body {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: #404040;
+  color: #F5F5F4;
+  background-color: #0C0A09;
   overflow-x: hidden;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -679,24 +676,24 @@ h3,
 h4,
 h5,
 h6 {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
-  line-height: 1.7;
-  line-height: 1.1;
-  font-weight: bold;
+  font-family: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.navbar-custom .navbar-brand {
+  font-family: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 h4 {
   font-size: 21px;
 }
 a {
-  color: #404040;
+  color: #CA8A04;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #EAB308;
 }
 a img:hover,
 a img:focus {
@@ -706,10 +703,12 @@ article {
   overflow: hidden;
 }
 blockquote {
-  color: gray;
+  color: #A8A29E;
   font-style: italic;
   font-size: 0.95em;
   margin: 20px 0 20px;
+  border-left: 3px solid #CA8A04;
+  padding-left: 16px;
 }
 blockquote p {
   margin: 0;
@@ -781,7 +780,7 @@ samp {
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #0085a1;
+  color: #CA8A04;
 }
 .post-container h1,
 .post-container h2,
@@ -891,7 +890,7 @@ samp {
   width: 100%;
 }
 .post-container .pager li > a > span {
-  color: #a3a3a3;
+  color: #78716C;
   font-weight: normal;
   letter-spacing: 0.5px;
 }
@@ -972,63 +971,75 @@ samp {
   }
 }
 .navbar-custom {
-  background: none;
+  background: rgba(12, 10, 9, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: none;
-  position: absolute;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
-  color: white;
+  font-weight: 700;
+  color: #F5F5F4;
   height: 56px;
   line-height: 25px;
+  letter-spacing: -0.5px;
 }
 .navbar-custom .navbar-brand:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #CA8A04;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 20px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #A8A29E;
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navbar-custom .nav li a:hover {
+  color: #CA8A04;
 }
 .navbar-custom .nav li a:active {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(202, 138, 4, 0.1);
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
+    background: rgba(12, 10, 9, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   }
   .navbar-custom body {
     font-size: 20px;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: #F5F5F4;
     padding: 20px;
     line-height: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #CA8A04;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #A8A29E;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #CA8A04;
   }
   .navbar-custom .nav li a:active {
     background: none;
@@ -1038,21 +1049,21 @@ samp {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .navbar-custom.invert .navbar-toggle .icon-bar {
-  background-color: #404040;
+  background-color: #F5F5F4;
 }
 .navbar-custom.invert .navbar-brand {
-  color: #404040;
+  color: #F5F5F4;
 }
 .navbar-custom.invert .navbar-brand:hover,
 .navbar-custom.invert .navbar-brand:focus {
-  color: #0085a1;
+  color: #CA8A04;
 }
 .navbar-custom.invert .nav li a {
-  color: #404040;
+  color: #F5F5F4;
 }
 .navbar-custom.invert .nav li a:hover,
 .navbar-custom.invert .nav li a:focus {
-  color: #0085a1;
+  color: #CA8A04;
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
@@ -1079,18 +1090,18 @@ samp {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #F5F5F4;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #CA8A04;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #F5F5F4;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #CA8A04;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -1103,14 +1114,14 @@ samp {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #a3a3a3;
+  background-color: #0C0A09;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  position: relative;
   margin-bottom: 0px;
-  /* 0 on mobile, modify by Hux */
 }
 .intro-header.style-text {
   background: none;
@@ -1119,7 +1130,7 @@ samp {
 .intro-header.style-text .post-heading,
 .intro-header.style-text .page-heading {
   padding: 85px 0 20px;
-  color: #404040;
+  color: #F5F5F4;
 }
 .intro-header.style-text .site-heading .subheading,
 .intro-header.style-text .post-heading .subheading,
@@ -1128,20 +1139,32 @@ samp {
 }
 .intro-header.style-text .tags a,
 .intro-header.style-text .tags .tag {
-  border-color: #404040;
-  color: #404040;
+  border-color: #A8A29E;
+  color: #A8A29E;
 }
 .intro-header.style-text .tags a:hover,
 .intro-header.style-text .tags .tag:hover,
 .intro-header.style-text .tags a:active,
 .intro-header.style-text .tags .tag:active {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(202, 138, 4, 0.15);
+  border-color: #CA8A04;
+  color: #CA8A04;
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
-    /* response on desktop */
   }
+}
+.intro-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12, 10, 9, 0.4) 0%, #0C0A09 100%);
+  z-index: 1;
+}
+.intro-header .container {
+  position: relative;
+  z-index: 2;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -1172,14 +1195,12 @@ samp {
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   font-size: 18px;
   line-height: 1.1;
@@ -1203,11 +1224,7 @@ samp {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   font-size: 17px;
   line-height: 1.4;
@@ -1254,41 +1271,49 @@ samp {
     right: 15px;
   }
 }
+.post-preview {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
 .post-preview > a {
-  color: #404040;
+  color: #F5F5F4;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #CA8A04;
 }
 .post-preview > a > .post-title {
+  font-family: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
   font-size: 21px;
   line-height: 1.3;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 .post-preview > a > .post-subtitle {
   font-size: 15px;
-  line-height: 1.3;
+  line-height: 1.5;
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
+  color: #A8A29E;
 }
 .post-preview > .post-meta {
-  font-family: 'Lora', 'Times New Roman', serif;
-  color: #a3a3a3;
-  font-size: 16px;
-  font-style: italic;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.7;
+  color: #78716C;
+  font-size: 14px;
+  font-style: normal;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #CA8A04;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #EAB308;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -1301,16 +1326,16 @@ samp {
     font-size: 16px;
   }
   .post-preview .post-meta {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 .post-content-preview {
   font-size: 13px;
   font-style: italic;
-  color: #a3a3a3;
+  color: #78716C;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #CA8A04;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -1335,6 +1360,8 @@ samp {
 footer {
   font-size: 20px;
   padding: 50px 0 65px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 40px;
 }
 footer .list-inline {
   margin: 0;
@@ -1344,20 +1371,17 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
+  color: #A8A29E;
 }
 footer .copyright a {
-  color: #337ab7;
+  color: #CA8A04;
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #0085a1;
+  color: #EAB308;
 }
 .btn {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 14px;
@@ -1372,8 +1396,8 @@ footer .copyright a:focus {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #CA8A04;
+  border: 1px solid #CA8A04;
   color: white;
 }
 .pager {
@@ -1382,19 +1406,20 @@ footer .copyright a:focus {
 }
 .pager li > a,
 .pager li > span {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
   padding: 10px;
-  background-color: white;
-  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #A8A29E;
+  color: #A8A29E;
+  border-radius: 4px;
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
@@ -1404,13 +1429,13 @@ footer .copyright a:focus {
   }
 }
 .pager li > a {
-  color: #404040;
+  color: #F5F5F4;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #CA8A04;
+  border-color: #CA8A04;
 }
 .pager li > a:hover > span,
 .pager li > a:focus > span {
@@ -1420,19 +1445,19 @@ footer .copyright a:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #a3a3a3;
-  background-color: #404040;
+  color: #78716C;
+  background-color: #F5F5F4;
   cursor: not-allowed;
 }
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #CA8A04;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #CA8A04;
 }
 img::selection {
   color: white;
@@ -1569,11 +1594,7 @@ img::-moz-selection {
 }
 .mini-post-list .tag-text {
   font-weight: 200;
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
 }
 .mini-post-list .post-preview {
@@ -1693,4 +1714,104 @@ img::-moz-selection {
 }
 .no-scroll {
   overflow-y: hidden;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: opacity, transform;
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+.post-preview.reveal:nth-child(1) {
+  transition-delay: 0s;
+}
+.post-preview.reveal:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.post-preview.reveal:nth-child(3) {
+  transition-delay: 0.1s;
+}
+.post-preview.reveal:nth-child(4) {
+  transition-delay: 0.15s;
+}
+.post-preview.reveal:nth-child(5) {
+  transition-delay: 0.2s;
+}
+.post-preview.reveal:nth-child(6) {
+  transition-delay: 0.25s;
+}
+.post-preview.reveal:nth-child(7) {
+  transition-delay: 0.3s;
+}
+.post-preview.reveal:nth-child(8) {
+  transition-delay: 0.35s;
+}
+.post-preview.reveal:nth-child(9) {
+  transition-delay: 0.4s;
+}
+.post-preview.reveal:nth-child(10) {
+  transition-delay: 0.45s;
+}
+pre {
+  background-color: #1C1917 !important;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+}
+code {
+  background-color: #1C1917;
+  color: #EAB308;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.site-heading h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #CA8A04;
+  margin: 16px auto 0;
+}
+img {
+  border-radius: 8px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0C0A09;
+}
+::-webkit-scrollbar-thumb {
+  background: #292524;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #78716C;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
