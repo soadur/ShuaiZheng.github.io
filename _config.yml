@@ -6,7 +6,7 @@ email: yourname@gmail.com
 description: "这里是 @ShuaiZheng 的个人博客"
 keyword: "ShuaiZheng, 博客, 个人网站"
 url: "https://soadur.github.io" # your host, for absolute URL
-baseurl: "/ShuaiZheng.github.io" # project site subpath
+baseurl: "" # project site subpath
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -75,7 +75,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "个人简介写在这里"
+sidebar-about-description: "动画制作学习中 / Blender三渲二 / 坚持早起冥想阅读日记运动 / 健身从零到双力臂 / 目标是6年内存到100万成为动画导演"
 sidebar-avatar: https://github.com/ShuaiZheng.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
